@@ -84,8 +84,8 @@ It squashes the input into a range between 0 and 1.
 - Explains how the sigmoid function outputs values between 0 and 1, making it suitable for binary classification.
 
 **Implementation**: 
-    - Code implementation of a sigmoid neuron, including forward and backward propagation steps.
-    - Calculates the gradient of the sigmoid function for use in backpropagation.
+- Code implementation of a sigmoid neuron, including forward and backward propagation steps.
+- Calculates the gradient of the sigmoid function for use in backpropagation.
     
 **Why Use It**?
 - Useful for binary classification and probabilistic outputs.
