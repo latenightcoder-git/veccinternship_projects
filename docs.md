@@ -17,7 +17,7 @@ Takes weighted inputs, applies an activation function, and produces an output.
 Data flows through the network:
 Input → Hidden Layers → Output.
 Each neuron computes a weighted sum of inputs:
-<img src="veccinternship_projects\images\zformula.png" alt="Zformula" title="Each neuron computes a weighted sum of inputs">
+<img src="images\zformula.png" alt="Zformula" title="Each neuron computes a weighted sum of inputs">
 where 𝑤 are weights, 𝑥 are inputs, and 𝑏 is the bias term.
 
 3. Activation Functions
