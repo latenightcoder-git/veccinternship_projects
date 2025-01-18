@@ -13,7 +13,7 @@ relu_md.ipynb: Analysis and implementation of the ReLU activation function.
 ********************************************************************************************************************************
 
 ## 1. XOR Problem with Backpropagation 
-[Check the code in Jupyter Notebook]("C:\veccinternship_projects\XOR_Backpropagation_md.ipynb")
+[Check the code in Jupyter Notebook](XOR_Backpropagation_md.ipynb)
 
 ### XOR Problem and Neural Network Implementation
 
@@ -46,4 +46,75 @@ The neural network used to solve the XOR problem typically has:
 
 This neural network training process helps the model learn the XOR pattern through iterative updates, gradually reducing the error in predictions.
 
+## XOR deeplearning
+[Check the code in Jupyter Notebook](XORdeeplearning_md.ipynb)
 
+**Introduction**: Delves into deep learning techniques for solving the XOR problem.
+
+**Deep Neural Network**: 
+- A "deep" learning approach uses multiple layers in the neural network (hidden layers) to learn more complex patterns. Implements a deeper neural network, possibly with more hidden layers, compared to the previous notebook.
+- Uses advanced neural network architectures to improve performance.
+
+**Training and Optimization**:
+- Explains the training process for deep neural networks, including optimization techniques like gradient descent.
+- May include regularization techniques to prevent overfitting.
+
+**Architecture**:
+Input layer → Hidden layer(s) → Output layer.
+
+**Activation Functions**:
+Used in neurons to introduce non-linearity, helping the model solve complex problems like XOR.
+
+**Key Concepts**:
+* Deep Learning: Involves neural networks with multiple hidden layers.
+* Optimization: Techniques to adjust weights for minimizing the loss function.
+* Regularization: Methods to reduce overfitting and improve generalization.
+
+##  Sigmoid Neuron Model 
+[Check the code in Jupyter Notebook](sigmoid_neuron.ipynb)
+
+**What is a Sigmoid Neuron?**
+- A basic unit of neural networks where the activation function is sigmoid:
+<img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
+It squashes the input into a range between 0 and 1.
+
+**Sigmoid Activation Function** : <img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
+- Explains how the sigmoid function outputs values between 0 and 1, making it suitable for binary classification.
+
+**Implementation**: 
+    - Code implementation of a sigmoid neuron, including forward and backward propagation steps.
+    - Calculates the gradient of the sigmoid function for use in backpropagation.
+    
+    Why Use It?
+        Useful for binary classification and probabilistic outputs.
+    
+**Limitations**:
+Vanishing gradient problem: Gradients become too small during backpropagation for large networks, slowing learning.
+
+**Key Concepts**:
+Sigmoid Function: A smooth, differentiable function that outputs values between 0 and 1.
+
+**Gradient**: The derivative of the sigmoid function, used for updating weights during training.
+
+## ReLU Activation Function
+[Check the code in Jupyter Notebook](relu_md.ipynb)
+
+**What is ReLU**?
+- Rectified Linear Unit (ReLU) is a popular activation function: f(x)=max(0,x)
+- RelU Activation function described the RelU function, explains how RelU introduces non-linearity into the model, allowing the network to learn complex patterns.
+
+**Why Use ReLU**?
+- Computationally efficient.
+- Helps with the vanishing gradient problem by not saturating for positive values.
+
+**Variants**:
+Leaky ReLU, Parametric ReLU, etc., are used to address issues like "dead neurons."
+
+**Implementation**:
+- Code implementation of a ReLU neuron, including forward and backward propagation steps.
+- Discusses the advantages and drawbacks of ReLU, such as the issue of dying ReLUs.
+
+**Key Concepts**:
+- ReLU Function: Outputs the input if positive, otherwise zero.
+- Non-Linearity: Introduced by ReLU, enabling the learning of complex patterns.
+- Dying ReLUs: A problem where neurons stop activating, often addressed with variants like Leaky ReLU.
