@@ -17,33 +17,33 @@ Takes weighted inputs, applies an activation function, and produces an output.
 Data flows through the network:
 Input → Hidden Layers → Output.
 Each neuron computes a weighted sum of inputs:
-<img src="C:\veccinternship_projects\zformula.png" alt="Zformula" title="Each neuron computes a weighted sum of inputs">
+<img src="veccinternship_projects\images\zformula.png" alt="Zformula" title="Each neuron computes a weighted sum of inputs">
 where 𝑤 are weights, 𝑥 are inputs, and 𝑏 is the bias term.
 
 3. Activation Functions
 Introduce non-linearity, enabling the network to learn complex patterns.
 Common types:
-<img src="C:\veccinternship_projects\zallformulas.png" alt="Alt text" title="Image Title">
+<img src="images\zallformulas.png" alt="All formulas" title="All formulas">
 
 4. Loss Function
 Measures how far predictions are from the actual values.
 Examples:
-Mean Squared Error (MSE): For regression tasks.
-Cross-Entropy Loss: For classification tasks.
+- Mean Squared Error (MSE): For regression tasks.
+- Cross-Entropy Loss: For classification tasks.
 
 5. Backpropagation
 Algorithm for training neural networks.
 Steps:
-Compute the loss.
-Calculate gradients of the loss with respect to weights using the chain rule.
-Update weights using gradients.
+- Compute the loss.
+- Calculate gradients of the loss with respect to weights using the chain rule.
+- Update weights using gradients.
 
 6. Gradient Descent
 Optimization algorithm to minimize the loss function.
 Variants:
-Stochastic Gradient Descent (SGD): Updates weights for each training example.
-Mini-Batch Gradient Descent: Uses small batches of training data.
-Adam: Combines momentum and adaptive learning rates.
+- Stochastic Gradient Descent (SGD): Updates weights for each training example.
+- Mini-Batch Gradient Descent: Uses small batches of training data.
+- Adam: Combines momentum and adaptive learning rates.
 
 ### Key Terms
 
