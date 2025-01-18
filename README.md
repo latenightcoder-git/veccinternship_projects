@@ -78,15 +78,16 @@ Used in neurons to introduce non-linearity, helping the model solve complex prob
 <img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
 It squashes the input into a range between 0 and 1.
 
-**Sigmoid Activation Function** : <img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
+**Sigmoid Activation Function** : 
+    <img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
 - Explains how the sigmoid function outputs values between 0 and 1, making it suitable for binary classification.
 
 **Implementation**: 
     - Code implementation of a sigmoid neuron, including forward and backward propagation steps.
     - Calculates the gradient of the sigmoid function for use in backpropagation.
     
-    Why Use It?
-        Useful for binary classification and probabilistic outputs.
+**Why Use It**?
+- Useful for binary classification and probabilistic outputs.
     
 **Limitations**:
 Vanishing gradient problem: Gradients become too small during backpropagation for large networks, slowing learning.
