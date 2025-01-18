@@ -79,7 +79,8 @@ Used in neurons to introduce non-linearity, helping the model solve complex prob
 It squashes the input into a range between 0 and 1.
 
 **Sigmoid Activation Function** : 
-    <img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
+    
+<img src="images\sigmoid.png" alt="Sigmoid formula" title="Sigmoid formula pic">
 - Explains how the sigmoid function outputs values between 0 and 1, making it suitable for binary classification.
 
 **Implementation**: 
