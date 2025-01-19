@@ -7,9 +7,13 @@ Repository Contents
 The repository includes the following Jupyter Notebooks:
 
 XOR_Backpropagation_md.ipynb: Implementation of the XOR logic gate using backpropagation.
+
 XORdeeplearning_md.ipynb: Deep learning approach to solving the XOR problem.
-md_sigmoid_neuron.ipynb: Exploration of the sigmoid neuron model.
+
+sigmoid_neuron.ipynb: Exploration of the sigmoid neuron model.
+
 relu_md.ipynb: Analysis and implementation of the ReLU activation function.
+
 ********************************************************************************************************************************
 
 ## 1. XOR Problem with Backpropagation 
